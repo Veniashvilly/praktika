@@ -24,9 +24,9 @@ Confusion Matrix:\
 Нормализация целевой переменной в случае регрессии.\
 Преобразование всех данных в torch.tensor для последующей подачи в модель.\
 Далее, в части 2.2, мы провели обучение моделей с использованием подготовленных данных. Были выбраны два разных CSV-датасета:\
-Для задачи регрессии: Used Car Price Dataset Extended - https://www.kaggle.com/datasets/therohithanand/used-car-price-prediction?resource=download\
-Для задачи бинарной классификации: Water Potability Dataset - https://www.kaggle.com/datasets/adityakadiwal/water-potability\
-В случае задачи регрессии модель была обучена на данных о ценах автомобилей. Полученные потери (loss) в ходе 100 эпох демонстрируют стабильное снижение:\
+Для задачи регрессии: Used Car Price Dataset Extended - https://www.kaggle.com/datasets/therohithanand/used-car-price-prediction?resource=download \
+Для задачи бинарной классификации: Water Potability Dataset - https://www.kaggle.com/datasets/adityakadiwal/water-potability \
+В случае задачи регрессии модель была обучена на данных о ценах автомобилей. Полученные потери (loss) в ходе 100 эпох демонстрируют стабильное снижение:
 
 ![image](https://github.com/user-attachments/assets/1cd1789f-e164-43ed-a343-0ccb9acbd4a5)
 
